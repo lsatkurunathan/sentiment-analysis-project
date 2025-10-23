@@ -1,3 +1,4 @@
+# Importing
 import nltk
 import random
 import re
@@ -131,4 +132,3 @@ print(f"Sentiment for '{custom_sentence_negative}': {sentiment_negative}")
 custom_sentence_sarcasm = "What a brilliant idea, flying me to the wrong city! Excellent service."
 sentiment_sarcasm = analyze_sentiment(custom_sentence_sarcasm, classifier, word_features, stop_words)
 print(f"Sentiment for '{custom_sentence_sarcasm}': {sentiment_sarcasm}")
-
